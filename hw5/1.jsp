@@ -1,5 +1,6 @@
 ﻿<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
+request.setCharacterEncoding("utf8");
 String name = request.getParameter("name");
 String bir = request.getParameter("bir");
 String education = request.getParameter("education");
